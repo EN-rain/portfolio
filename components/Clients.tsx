@@ -16,10 +16,7 @@ const Clients = () => {
       <div className="flex flex-col items-center max-lg:mt-10">
         <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
           <InfiniteMovingCards
-            items={testimonials.map(item => ({
-              ...item,
-              quote: <span dangerouslySetInnerHTML={{ __html: item.quote }} />,
-            }))}
+            items={testimonials}
             direction="right"
             speed="slow"
           />
@@ -28,6 +25,5 @@ const Clients = () => {
     </section>
   );
 };
-
 
 export default Clients;
