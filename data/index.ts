@@ -57,7 +57,7 @@ export const navItems = [
       id: 1,
       title: "Awesometodos",
       des: "An intuitive to-do app to help you stay organized and boost productivity with ease.",
-      img: "/p1.svg",
+      img: "/images/awes.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
       link: "https://todo-dea6.onrender.com",
     },
