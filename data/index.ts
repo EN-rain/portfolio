@@ -151,4 +151,9 @@ export const navItems = [
       link: "https://www.youtube.com",
       img: "/images/fb.png",
     },
+    {
+      id: 3,
+      link: "https://www.figma.com/design/Iuku129x9CcsqWb0eMnOSp/Portfolio?node-id=0-1&t=PxrWxSnVjdZROL1k-1",
+      img: "/images/figma.png",
+    },
   ];
